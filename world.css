@@ -54,6 +54,45 @@ tr:nth-child(even) {
 
 #controls {
     padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
+#country{
+    padding: 10px 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+button{
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    column-gap: 10px;
+}
+
+#lookup {
+    background-color: #0074B7;
+}
+
+#lookup-cities {
+    background-color: #003B73;
+}
+
+#error{
+    color: #cc0000;
+}
   

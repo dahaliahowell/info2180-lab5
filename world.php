@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ?>
 <?php if ($check === True): ?>
   <?php if (empty($results)): ?>
-    <h2>NO RESULTS</h2>
+    <h2 id="error">NO RESULTS - Try entering a valid country to lookup cities</h2>
   <?php else: ?>
   <table>
   <tr>
